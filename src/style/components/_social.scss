@@ -1,0 +1,46 @@
+.social {
+  display: flex;
+}
+.social__title {
+  margin-right: 8px;
+  color: $grey;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.89;
+}
+.social__items {
+  @include unlist;
+  display: flex;
+}
+.social__link {
+  display: flex;
+  width: 33px;
+  height: 33px;
+  margin: 0 1px;
+  background-color: $white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  transition: 0.25s;
+
+  span {
+    display: block;
+    margin: auto;
+    width: 25px;
+    height: 25px;
+    background-color: $grey;
+    border-radius: 50%;
+    font-size: 18px;
+    font-weight: 700;
+    color: $white;
+    line-height: 1.39;
+    text-align: center;
+  }
+
+  &:hover {
+    border-color: $dark-blue;
+    span {
+      background-color: $dark-blue;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+@include font('ProximaNova', 'ProximaNovaBold') {
+  font-style: normal;
+  font-weight: 700;
+}
+@include font('ProximaNova', 'ProximaNovaExtrabold') {
+  font-style: normal;
+  font-weight: 900;
+}
+@include font('ProximaNova', 'ProximaNovaReg') {
+  font-style: normal;
+  font-weight: 400;
+}

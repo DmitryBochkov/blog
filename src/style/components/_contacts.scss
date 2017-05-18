@@ -1,0 +1,36 @@
+.contacts {
+  max-width: 220px;
+  font-size: 13px;
+  line-height: 1.15;
+  color: $dark-grey;
+
+  p {
+    margin: 0;
+  }
+}
+.contacts__office {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 12px;
+  line-height: 1.4;
+  font-weight: 700;
+  color: $dark;
+  & + .contacts__office {
+    margin-left: 8px;
+  }
+  &:before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 2px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: $blue;
+  }
+  &:last-child {
+    &:before {
+      background-color: $purple;
+    }
+  }
+}

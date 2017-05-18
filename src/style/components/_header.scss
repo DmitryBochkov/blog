@@ -1,0 +1,15 @@
+.header {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+.header__top {
+  padding-top: 35px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.header__bottom {
+  border-bottom: 1px solid $alto;
+}

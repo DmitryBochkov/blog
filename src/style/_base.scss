@@ -1,0 +1,63 @@
+html {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  height: 100%;
+  font-family: $default-font;
+  line-height: 1;
+  font-weight: 400;
+	font-size: 16px;
+  color: $black;
+  background-color: $white;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  position: relative;
+  min-width: 320px;
+  @include container(90%);
+  @include gutters(30px);
+  @include breakpoint($medium) {
+    @include container(768px);
+    @include gutters(30px);
+  }
+  @include breakpoint($large) {
+    @include container(992px);
+    @include gutters(30px);
+  }
+  @include breakpoint($xlarge) {
+    @include container(1212px);
+    @include gutters(30px);
+  }
+}
+
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+section:not(.home) {
+  padding-top: 55px !important;
+}

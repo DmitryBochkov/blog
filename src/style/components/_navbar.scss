@@ -1,0 +1,50 @@
+.navbar {
+  background-color: $accent;
+}
+.navbar-menu {
+  @include unlist;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-menu__item {
+  position: relative;
+  font-size: 25px;
+  font-weight: 700;
+  color: $white;
+  &--advice {
+    .navbar-menu__link {
+      padding-left: 50px;
+      color: $yellow;
+      background-image: url(../img/speech.png);
+      background-repeat: no-repeat;
+      background-position: left center;
+      &:hover {
+        color: $white;
+      }
+    }
+  }
+  &:before {
+    @include pseudo;
+    width: 1px;
+    height: 28px;
+    left: -25px;
+    top: 50%;
+    margin-top: -14px;
+    background-color: rgba($white, 0.15);
+  }
+  &:first-child,
+  &:last-child {
+    &:before {
+      display: none;
+    }
+  }
+}
+.navbar-menu__link {
+  display: block;
+  padding: 15px 0;
+  text-decoration: none;
+  color: inherit;
+  &:hover {
+    color: $yellow;
+  }
+}

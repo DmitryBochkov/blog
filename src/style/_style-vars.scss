@@ -1,0 +1,33 @@
+$susy: (
+  columns: 12,
+  math: fluid,
+  output: float,
+  gutter-position: inside,
+);
+
+$xsmall: 'screen' 480px;
+$small: 'screen' 600px;
+$medium: 'screen' 768px;
+$large: 'screen' 992px;
+$xlarge: 'screen' 1212px;
+
+$default-font: "ProximaNova", Arial, Tahoma, sans-serif;
+//$secondary-font: 'Montserrat', sans-serif;
+
+$black: #000;
+$white: #fff;
+$accent: #017f5a;
+$dark: #262729;
+$mako: #434551;
+$dark-grey: #636363;
+$grey: #8d8d8d;
+$light-grey: #ededed;
+$silver: #c3c3c3;
+$alto: #d4d4d4;
+$light-green: #1b9c76;
+$blue: #2d71cf;
+$dark-blue: #2b47c2;
+$purple: #7218B2;
+$yellow: #f2ed9f;
+// $brown: #242424;
+// $overlay: #3d3c3c;

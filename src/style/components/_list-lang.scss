@@ -1,0 +1,37 @@
+.list-lang {
+  @include unlist;
+  float: left;
+  margin-right: 30px;
+  padding-top: 10px;
+  font-size: 0;
+}
+.list-lang__item {
+  display: inline-block;
+  vertical-align: top;
+  color: $silver;
+  &.active {
+    color: $accent;
+    a {
+      background-color: $light-grey;
+    }
+  }
+  & + .list-lang__item {
+    margin-left: 10px;
+  }
+}
+.list-lang__link {
+  display: block;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: inherit;
+  text-align: center;
+  line-height: 32px;
+  &:hover {
+    color: $accent;
+  }
+}
