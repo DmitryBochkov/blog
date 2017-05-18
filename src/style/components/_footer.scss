@@ -1,0 +1,37 @@
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.footer__inner {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-menu {
+  @include unlist;
+  display: flex;
+  flex: 1;
+}
+.footer-menu__item {
+  margin-right: 25px;
+  font-size: 16px;
+  font-weight: 700;
+  color: $mako;
+  a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    border-bottom: 1px solid $grey;
+    transition: 0.25s;
+    &:hover {
+      border-bottom-color: transparent;
+    }
+  }
+}
+
+.contacts--footer {
+  margin-left: 33px;
+}

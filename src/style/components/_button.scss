@@ -21,4 +21,8 @@
   &:hover {
     border-color: $accent;
   }
+
+  & + .btn {
+    margin-left: 8px;
+  }
 }

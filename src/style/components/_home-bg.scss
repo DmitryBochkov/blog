@@ -1,0 +1,31 @@
+.home-bg {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  height: 100%;
+  .container {
+    height: inherit;
+  }
+}
+.home-bg__human {
+  background-image: url(../img/home-human.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  height: 80%;
+  background-size: contain;
+}
+.home-bg__circle {
+  background-image: url(../img/home-circle.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0;
+  right: -7%;
+  width: 65%;
+  height: 60%;
+  background-size: contain;
+}

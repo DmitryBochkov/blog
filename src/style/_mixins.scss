@@ -99,6 +99,14 @@
   padding: 0;
 }
 
+@mixin counter($var) {
+	counter-reset: $var;
+	& > li:before {
+		content: counter($var);
+		counter-increment: $var;
+  }
+}
+
 // $breakpoints: (
 //     "phone":        400px,
 //     "phone-wide":   480px,
