@@ -1,0 +1,48 @@
+.tabs__list {
+  @include unlist;
+  font-size: 0;
+}
+.tabs__item {
+  display: inline-block;
+  margin-left: 8px;
+  font-size: 22px;
+  line-height: 1.27;
+  text-transform: uppercase;
+  color: $dark;
+  border-radius: 3px;
+  border: 1px solid rgba($alto, 0.8);
+  &.active {
+    color: $accent;
+    border-color: $accent;
+  }
+}
+.tabs__link {
+  display: block;
+  padding: 15px 20px;
+  color: inherit !important;
+  color: $mako;
+  text-decoration: none;
+}
+
+.tabs__content {
+  position: relative;
+}
+.tab {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 0;
+  width: 0;
+  overflow: hidden;
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 1.4s;
+
+  &.visible {
+    position: relative;
+    opacity: 1;
+    height: auto;
+    width: auto;
+    z-index: 1;
+  }
+}

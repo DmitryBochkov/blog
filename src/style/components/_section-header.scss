@@ -4,3 +4,23 @@
   align-items: center;
   margin-bottom: 45px;
 }
+
+.section-header__right {
+  align-self: flex-start;
+  text-align: right;
+  font-weight: 700;
+  h3 {
+    padding: 0;
+    color: $mako;
+    font-size: 29px;
+  }
+}
+.section-header__link {
+  color: $accent;
+  font-size: 23px;
+  text-decoration: underline;
+  transition: 0.25s;
+  &:hover {
+    text-decoration: none;
+  }
+}

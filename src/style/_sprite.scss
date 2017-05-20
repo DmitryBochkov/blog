@@ -1,0 +1,189 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$ic-badge-name: 'ic--badge';
+$ic-badge-x: 106px;
+$ic-badge-y: 0px;
+$ic-badge-offset-x: -106px;
+$ic-badge-offset-y: 0px;
+$ic-badge-width: 38px;
+$ic-badge-height: 48px;
+$ic-badge-total-width: 144px;
+$ic-badge-total-height: 140px;
+$ic-badge-image: '../img/sprite.png';
+$ic-badge: (106px, 0px, -106px, 0px, 38px, 48px, 144px, 140px, '../img/sprite.png', 'ic--badge', );
+$ic-compass-name: 'ic--compass';
+$ic-compass-x: 45px;
+$ic-compass-y: 99px;
+$ic-compass-offset-x: -45px;
+$ic-compass-offset-y: -99px;
+$ic-compass-width: 39px;
+$ic-compass-height: 41px;
+$ic-compass-total-width: 144px;
+$ic-compass-total-height: 140px;
+$ic-compass-image: '../img/sprite.png';
+$ic-compass: (45px, 99px, -45px, -99px, 39px, 41px, 144px, 140px, '../img/sprite.png', 'ic--compass', );
+$ic-grafic-name: 'ic--grafic';
+$ic-grafic-x: 0px;
+$ic-grafic-y: 99px;
+$ic-grafic-offset-x: 0px;
+$ic-grafic-offset-y: -99px;
+$ic-grafic-width: 40px;
+$ic-grafic-height: 41px;
+$ic-grafic-total-width: 144px;
+$ic-grafic-total-height: 140px;
+$ic-grafic-image: '../img/sprite.png';
+$ic-grafic: (0px, 99px, 0px, -99px, 40px, 41px, 144px, 140px, '../img/sprite.png', 'ic--grafic', );
+$ic-hammer-name: 'ic--hammer';
+$ic-hammer-x: 45px;
+$ic-hammer-y: 48px;
+$ic-hammer-offset-x: -45px;
+$ic-hammer-offset-y: -48px;
+$ic-hammer-width: 47px;
+$ic-hammer-height: 36px;
+$ic-hammer-total-width: 144px;
+$ic-hammer-total-height: 140px;
+$ic-hammer-image: '../img/sprite.png';
+$ic-hammer: (45px, 48px, -45px, -48px, 47px, 36px, 144px, 140px, '../img/sprite.png', 'ic--hammer', );
+$ic-luce-name: 'ic--luce';
+$ic-luce-x: 0px;
+$ic-luce-y: 0px;
+$ic-luce-offset-x: 0px;
+$ic-luce-offset-y: 0px;
+$ic-luce-width: 49px;
+$ic-luce-height: 43px;
+$ic-luce-total-width: 144px;
+$ic-luce-total-height: 140px;
+$ic-luce-image: '../img/sprite.png';
+$ic-luce: (0px, 0px, 0px, 0px, 49px, 43px, 144px, 140px, '../img/sprite.png', 'ic--luce', );
+$ic-next-name: 'ic--next';
+$ic-next-x: 89px;
+$ic-next-y: 99px;
+$ic-next-offset-x: -89px;
+$ic-next-offset-y: -99px;
+$ic-next-width: 10px;
+$ic-next-height: 14px;
+$ic-next-total-width: 144px;
+$ic-next-total-height: 140px;
+$ic-next-image: '../img/sprite.png';
+$ic-next: (89px, 99px, -89px, -99px, 10px, 14px, 144px, 140px, '../img/sprite.png', 'ic--next', );
+$ic-prev-name: 'ic--prev';
+$ic-prev-x: 104px;
+$ic-prev-y: 99px;
+$ic-prev-offset-x: -104px;
+$ic-prev-offset-y: -99px;
+$ic-prev-width: 10px;
+$ic-prev-height: 14px;
+$ic-prev-total-width: 144px;
+$ic-prev-total-height: 140px;
+$ic-prev-image: '../img/sprite.png';
+$ic-prev: (104px, 99px, -104px, -99px, 10px, 14px, 144px, 140px, '../img/sprite.png', 'ic--prev', );
+$ic-purse-name: 'ic--purse';
+$ic-purse-x: 106px;
+$ic-purse-y: 53px;
+$ic-purse-offset-x: -106px;
+$ic-purse-offset-y: -53px;
+$ic-purse-width: 38px;
+$ic-purse-height: 37px;
+$ic-purse-total-width: 144px;
+$ic-purse-total-height: 140px;
+$ic-purse-image: '../img/sprite.png';
+$ic-purse: (106px, 53px, -106px, -53px, 38px, 37px, 144px, 140px, '../img/sprite.png', 'ic--purse', );
+$ic-scales-name: 'ic--scales';
+$ic-scales-x: 54px;
+$ic-scales-y: 0px;
+$ic-scales-offset-x: -54px;
+$ic-scales-offset-y: 0px;
+$ic-scales-width: 47px;
+$ic-scales-height: 41px;
+$ic-scales-total-width: 144px;
+$ic-scales-total-height: 140px;
+$ic-scales-image: '../img/sprite.png';
+$ic-scales: (54px, 0px, -54px, 0px, 47px, 41px, 144px, 140px, '../img/sprite.png', 'ic--scales', );
+$ic-umbrella-name: 'ic--umbrella';
+$ic-umbrella-x: 0px;
+$ic-umbrella-y: 48px;
+$ic-umbrella-offset-x: 0px;
+$ic-umbrella-offset-y: -48px;
+$ic-umbrella-width: 40px;
+$ic-umbrella-height: 46px;
+$ic-umbrella-total-width: 144px;
+$ic-umbrella-total-height: 140px;
+$ic-umbrella-image: '../img/sprite.png';
+$ic-umbrella: (0px, 48px, 0px, -48px, 40px, 46px, 144px, 140px, '../img/sprite.png', 'ic--umbrella', );
+$spritesheet-width: 144px;
+$spritesheet-height: 140px;
+$spritesheet-image: '../img/sprite.png';
+$spritesheet-sprites: ($ic-badge, $ic-compass, $ic-grafic, $ic-hammer, $ic-luce, $ic-next, $ic-prev, $ic-purse, $ic-scales, $ic-umbrella, );
+$spritesheet: (144px, 140px, '../img/sprite.png', $spritesheet-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

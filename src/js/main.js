@@ -13,4 +13,15 @@ $(document).ready(function() {
     paddingTop: headerHeight
   });
 
+  // tabs
+  $('.tabs__list a').on('click', function(e) {
+    e.preventDefault();
+    $(this).parents('.tabs').find('.tab').removeClass('visible');
+    $(this).parent().siblings().removeClass('active');
+
+    var id = $(this).attr('href');
+    $(id).addClass('visible');
+    $(this).parent().addClass('active');
+  });
+
 });

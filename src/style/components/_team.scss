@@ -1,0 +1,60 @@
+.team__inner {
+  display: flex;
+  margin-bottom: 15px;
+}
+.team__ceo {
+  position: relative;
+  width: 446px;
+  height: 319px;
+  padding: 25px;
+  background-color: $white;
+  background-image: url(../img/home-circle.png);
+  background-repeat: no-repeat;
+  background-size: 650px;
+  background-position: -200px 70px;
+  border-radius: 5px;
+  border: 3px solid $accent;
+  &:after {
+    @include pseudo;
+    height: 350px;
+    right: 0;
+    bottom: 0;
+    width: 70%;
+    background-image: url(../img/home-human.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  h4 {
+    margin: 15px 0;
+    color: $dark;
+    font-weight: 700;
+    font-size: 22px;
+  }
+  p {
+    margin-bottom: 80px;
+    color: $mako;
+    font-size: 17px;
+  }
+}
+.team__ceo-site {
+  margin: 15px;
+  max-width: 270px;
+
+  a {
+    color: $accent;
+    font-weight: 700;
+    text-decoration: none;
+  }
+}
+
+.team__right {
+  margin-right: -15px;
+  padding-left: 70px;
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+}
+.team__item {
+  width: 33.3333%;
+}

@@ -118,7 +118,7 @@ gulp.task('watch', function(){
 });
 
 gulp.task('sprite', function () {
-  var spriteData = gulp.src('src/img/sprites/*.png')
+  var spriteData = gulp.src('src/img/icons/*.png')
     .pipe(spritesmith({
       imgName: '../img/sprite.png',
       cssName: '_sprite.scss',
